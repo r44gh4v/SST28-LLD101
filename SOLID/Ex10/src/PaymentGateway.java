@@ -1,0 +1,6 @@
+public class PaymentGateway implements IPaymentGateway {
+    @Override
+    public String charge(String studentId, double amount) {
+        return "TXN-9001";
+    }
+}
