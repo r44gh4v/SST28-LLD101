@@ -1,6 +1,6 @@
 # Elevator LLD
 
-This is a step-based Multi-Car Elevator simulation
+This is a Multi-Car Elevator System LLD
 
 ## UML Diagram
 ```mermaid
