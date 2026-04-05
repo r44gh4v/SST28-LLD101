@@ -2,11 +2,6 @@
 
 This is a Movie Ticket Booking System LLD
 
-## Features & Implementation
-- **Concurrent Reservations:** Pessimistic `ReentrantLock` wrappers map exclusively ensuring Atomic behavior throughout the selection, lock validation, and `LOCKED` temporary state switching.
-- **Seat Independence (ShowSeat):** Avoids polluting constant layout memory (`Seat`) by converting all logic via `initializeSeats()` mapping instances inside of distinct `ShowSeat` registries managing temporary localized lifecycle markers and pricing. 
-- **Dynamic Pricing Registry:** Easily allows strategy pattern injections to alter variables (surge algorithms or temporal constraints) without mangling the main `BookingSystem` or classes.
-
 ## UML Diagram
 
 ```mermaid
